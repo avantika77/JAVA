@@ -1,4 +1,4 @@
-🔸int varName-----> Scanner se=new Scanner()------> varName =se.nextInt() -------->
+no🔸int varName-----> Scanner se=new Scanner()------> varName =se.nextInt() -------->
  System.out.print(varName)
  Syntax of scanner class --------------------------------
 [ variableofIntType=Scannerobject.nextInt();]
@@ -22,3 +22,4 @@ class Input
 }
 }
 ==============================≠=================
+Standard Input/Output 
