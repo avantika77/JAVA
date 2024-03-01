@@ -23,3 +23,5 @@ class Input
 }
 ==============================≠=================
 Standard Input/Output 
+4ways to take input in java ..
+1.
