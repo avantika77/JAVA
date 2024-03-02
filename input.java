@@ -28,4 +28,14 @@ class Input
 ...The input is buffered for efficient reading.
 ... The wrapping code is hard to remember.
 3.Using Scanner Class
-
+This is probably the most preferred method to take input. The main purpose of the Scanner class is to parse primitive types and strings using regular expressions, however, it is also can be used to read input from the user in the command line. 
+..Convenient methods for parsing primitives (nextInt(), nextFloat(), …) from the tokenized input.
+..Regular expressions can be used to find tokens.
+..The reading methods are not synchronized
+4. Using Console Class
+..It has been becoming a preferred way for reading user’s input from the command line. In addition, it can be used for reading password-like input without echoing the characters entered by the user; the format string syntax can also be used (like System.out.printf()). 
+ advantages:
+ ..Reading password without echoing the entered characters.
+ .. Reading methods are synchronized.
+ .. Format string syntax can be used.
+ .. Does not work in non-interactive environment (such as in an IDE).
