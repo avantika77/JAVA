@@ -21,7 +21,11 @@ class Input
 
 }
 }
-==============================≠=================
-Standard Input/Output 
-4ways to take input in java ..
-1.
+===============================================
+4 ways to take input in java ..
+1.Standard Input/Output 
+2.This is the Java classical method to take input, Introduced in JDK1.0. This method is used by wrapping the System.in (standard input stream) in an InputStreamReader which is wrapped in a BufferedReader, we can read input from the user in the command line. 
+...The input is buffered for efficient reading.
+... The wrapping code is hard to remember.
+3.Using Scanner Class
+
