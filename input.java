@@ -27,11 +27,37 @@ class Input
 2.This is the Java classical method to take input, Introduced in JDK1.0. This method is used by wrapping the System.in (standard input stream) in an InputStreamReader which is wrapped in a BufferedReader, we can read input from the user in the command line. 
 ...The input is buffered for efficient reading.
 ... The wrapping code is hard to remember.
+
+ =================================================================================================================================================
 3.Using Scanner Class
 This is probably the most preferred method to take input. The main purpose of the Scanner class is to parse primitive types and strings using regular expressions, however, it is also can be used to read input from the user in the command line. 
 ..Convenient methods for parsing primitives (nextInt(), nextFloat(), …) from the tokenized input.
 ..Regular expressions can be used to find tokens.
 ..The reading methods are not synchronized
+ 
+// Java program to demonstrate working of Scanner in Java
+import java.util.Scanner;
+ class GetInputFromUser {
+    public static void main(String args[])
+    {
+        // Using Scanner for Getting Input from User
+        Scanner in = new Scanner(System.in);
+ 
+        String s = in.nextLine();
+        System.out.println("You entered string " + s);
+ 
+        int a = in.nextInt();
+        System.out.println("You entered integer " + a);
+ 
+        float b = in.nextFloat();
+        System.out.println("You entered float " + b);
+    }
+}
+
+
+
+
+ 
 4. Using Console Class
 ..It has been becoming a preferred way for reading user’s input from the command line. In addition, it can be used for reading password-like input without echoing the characters entered by the user; the format string syntax can also be used (like System.out.printf()). 
  advantages:
