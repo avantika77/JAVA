@@ -53,7 +53,13 @@ import java.util.Scanner;
         System.out.println("You entered float " + b);
     }
 }
-
+OUTPUT:
+hi
+You entered string hi
+89
+You entered integer 89
+89.09
+You entered float 89.09
 
 
 
