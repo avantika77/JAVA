@@ -71,3 +71,4 @@ You entered float 89.09
  .. Reading methods are synchronized.
  .. Format string syntax can be used.
  .. Does not work in non-interactive environment (such as in an IDE).
+________________________________________________________
