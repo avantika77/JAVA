@@ -4,6 +4,7 @@ no🔸int varName-----> Scanner se=new Scanner()------> varName =se.nextInt() --
 [ variableofIntType=Scannerobject.nextInt();]
 ScannerObject is the beforehand created object of the Scanner class
 ===============================================================================================
+ 
 import java.io.*; 
 import java.util.Scanner; //This line imports the Scanner class from the java.util package.
 //The Scanner class is used to obtain user input from the console.
@@ -63,7 +64,7 @@ You entered float 89.09
 
 
 
- 
+ ===========================================================================================================================================================================
 4. Using Console Class
 ..It has been becoming a preferred way for reading user’s input from the command line. In addition, it can be used for reading password-like input without echoing the characters entered by the user; the format string syntax can also be used (like System.out.printf()). 
  advantages:
