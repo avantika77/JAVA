@@ -27,3 +27,14 @@ class defult{
     }
 
 } 
+============================================================================================================================================================\
+byte value 0
+short value 0
+int value 0
+long value 0
+ double value 0.0
+boolean value false
+char  value
+String value null
+array  value null
+byte value null
