@@ -26,5 +26,7 @@ class check{
      }
     }
 }
+----------------------------------------------------------------------------------
+    The number is odd
 //time complexity :0(1)
 //space complexity :0(1)
