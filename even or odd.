@@ -40,6 +40,7 @@ class check{
 // -----------
 // 1101=13 
 // 12 is the even number
+// or gate => 0 0    0    rest is 1
 import java.util.*;
  class Checking {
     public static void main(String[] args)
@@ -53,3 +54,53 @@ import java.util.*;
         }
     }
 }
+========================================================================================
+Number is Odd
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+ Using Bitwise AND
+// Bitwise AND operation of the odd number by 1 will be 1 because the last bit will be already set otherwise it will give 0. 
+//  5= 0101 
+//     0001
+//     ----
+//     0001
+    // and =>  1  1   1  rest is zero
+    import java.util.*;
+    class Checking {
+       public static void main(String[] args)
+       {
+           int n = 23;
+           if ((n & 1)==1) {
+                System.out.println("Number is odd");
+           }
+           else {
+                System.out.println("Number is even");
+           }
+       }
+   }    
+============================================================================================
+Using Bitwise XOR
+Bitwise XOR operation of the even number by 1 increment the value of the number by 1 otherwise it decrements the value of the number by 1 if the value is odd.
+It is the most optimal approach.
+8=1000
+1=0001
+--------
+  1001 =>9   1 incremented so number is even
+23 = 010111
+1  = 000001
+--------------
+     010110 => 22 i is decremented so is odd
+import java.util.*;
+    class Checking {
+       public static void main(String[] args)
+       {
+           int n = 23;
+           if ((n ^ 1)==n+1) {
+                System.out.println("Number is even");
+           }
+           else {
+                System.out.println("Number is odd");
+           }
+       }
+   }   
+
+
