@@ -30,3 +30,26 @@ class check{
     The number is odd
 //time complexity :0(1)
 //space complexity :0(1)
+====================================================================================
+/Using Bitwise OR
+
+// Bitwise OR operation of the even number by 1 increment the value of the number by 1 otherwise it remains unchanged.
+//12 
+// 1100 =12
+// 0001=1
+// -----------
+// 1101=13 
+// 12 is the even number
+import java.util.*;
+ class Checking {
+    public static void main(String[] args)
+    {
+        int n = 3;
+        if ((n | 1) > n) {
+             System.out.println("Number is Even");
+        }
+        else {
+             System.out.println("Number is Odd");
+        }
+    }
+}
