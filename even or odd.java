@@ -102,5 +102,38 @@ import java.util.*;
            }
        }
    }   
+==============================================================================================================================================================
+3.Checking the LSB of the Number
+The LSB(Least Significant Bit) of an even number is always 0 and that of an odd number is always 1.
 
+import java.util.*;
 
+class Check {
+    public static String test(int n) {
+        if (n != 0) {
+            if (Integer.toBinaryString(n).endsWith("0")) {
+                return "even";
+            } else {
+                return "odd";
+            }
+        } else {
+            return "zero";
+        }
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i <= 8; i++) {
+            System.out.println(i + "-" + test(i));
+        }
+    }
+}
+============================================================
+0-zero
+1-odd
+2-even
+3-odd
+4-even
+5-odd
+6-even
+7-odd
+8-even
