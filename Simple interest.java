@@ -26,6 +26,11 @@ Enter the value of rate : 3
 Enter the value of time : 7
 Simple Interest: 9.45
 =============================================================================================
+// Compound Interest = P(1 + R/100)t
+// Where,
+// P is principal amount
+// R is the rate and
+// T is the time span 
 import java.util.Scanner;
 class CompoundInterest {
     public static void main(String args[]) {
@@ -44,3 +49,9 @@ class CompoundInterest {
         scanner.close();
     }
 }
+==========================================================================================
+Enter the value of principal: 456
+Enter the value of rate: 3
+Enter the value of time: 7
+Compound Interest: 560.822373588294
+==========================================================================================
