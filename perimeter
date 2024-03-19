@@ -1,3 +1,8 @@
+Perimeter of rectangle ABCD = 2A + 2B = 2(A+B)
+
+
+
+
 import java.io.*;
  
 class GFG {
