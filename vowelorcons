@@ -15,4 +15,5 @@ public class CHECK {
     } 
 }
 _______________________________________
-// input from user_
+// input from user
+import Java util.scanner
