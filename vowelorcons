@@ -1,17 +1,20 @@
 import java.io.*;   
 public class CHECK { 
-    static void Vowel_Or_Consonant(char y) 
+    static void VoOrCont(char y) 
     { 
         if (y == 'a' || y == 'e' || y == 'i' || y == 'o'
-            || y == 'u') 
+            || y == 'u'|| y == 'A' || y == 'E' || y == 'I'
+            || y == 'O' || y == 'U') 
             System.out.println("It is a Vowel."); 
         else
             System.out.println("It is a Consonant."); 
     } 
     static public void main(String[] args) 
     { 
-        Vowel_Or_Consonant('b'); 
-        Vowel_Or_Consonant('u'); 
+        VoOrCont('b'); 
+        VoOrCont('u'); 
+        VoOrCont('W'); 
+        VoOrCont('I'); 
     } 
 }
 _______________________________________
