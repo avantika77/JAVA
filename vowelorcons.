@@ -2,7 +2,7 @@ import java.io.*;
 public class CHECK { 
     static void VoOrCont(char y) 
     { 
-        if (y == 'a' || y == 'e' || y == 'i' || y == 'o'
+        if (y == 'a' || y == 'e' || y == 'i' || y == 'o'                           //uppercase and lowercase
             || y == 'u'|| y == 'A' || y == 'E' || y == 'I'
             || y == 'O' || y == 'U') 
             System.out.println("It is a Vowel."); 
@@ -18,5 +18,11 @@ public class CHECK {
     } 
 }
 _______________________________________
+It is a Consonant.
+It is a Vowel.
+It is a Consonant.
+It is a Vowel.
+=======================================
+
 // input from user
 import Java util.scanner
