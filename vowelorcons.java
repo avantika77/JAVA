@@ -19,12 +19,37 @@ public class CHECK {
         VoOrCont('I'); 
     } 
 }
-_______________________________________
+__________________________________________________________________________________________________________________________________
 It is a Consonant.
 It is a Vowel.
 It is a Consonant.
 It is a Vowel.
-=======================================
-
-// input from user
-import Java util.scanner
+===================================================================================================================================
+import java.util.Scanner;
+public class check{
+    // Function to find whether an input character is a vowel or consonant
+    static void VoOrCont(char y) {
+        if (y == 'a' || y == 'e' || y == 'i' || y == 'o'
+                || y == 'u' || y == 'A' || y == 'E' || y == 'I'
+                || y == 'O' || y == 'U')
+            System.out.println("It is a Vowel.");
+        else
+            System.out.println("It is a Consonant.");
+    }
+    // The Driver code
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        char inputChar = scanner.next().charAt(0);
+        // Call the function to check whether the input character is a vowel or consonant
+       VoOrCont(inputChar);
+        // Close the scanner to prevent resource leak
+        scanner.close();
+    }
+}
+==================================================================================================================================
+Enter a character: t
+It is a Consonant.
+===================================================================================================================================
+🔸 String indexOf() method returns the position of the first occurrence of the specified character or string in a specified string.
+    
