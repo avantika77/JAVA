@@ -52,4 +52,24 @@ Enter a character: t
 It is a Consonant.
 ===================================================================================================================================
 🔸 String indexOf() method returns the position of the first occurrence of the specified character or string in a specified string.
-    
+===================================================================================================================================
+// java program to check whether input 
+// character is a vowel or consonant 
+import java.io.*; 
+class check { 
+	// Function to find whether an input 
+	// character is vowel or not 
+	static String isVowel(char ch) 
+	{ 
+		// Make the list of vowels 
+		String str = "aeiouAEIOU"; 
+		return (str.indexOf(ch) != -1) ? "Vowel": "Consonant"; 
+	} 
+    // Driver Code 
+	public static void main(String[] args) 
+	{ 
+		System.out.println("It is a " + isVowel('a')); 
+		System.out.println("It is a " + isVowel('x')); 
+	} 
+} 
+===================================================================================================================================
