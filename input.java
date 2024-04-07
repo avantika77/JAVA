@@ -3,8 +3,7 @@ no🔸int varName-----> Scanner se=new Scanner()------> varName =se.nextInt() --
  Syntax of scanner class --------------------------------
 [ variableofIntType=Scannerobject.nextInt();]
 ScannerObject is the beforehand created object of the Scanner class
-===============================================================================================
- 
+======================================================================================================================================================= 
 import java.io.*; 
 import java.util.Scanner; //This line imports the Scanner class from the java.util package.
 //The Scanner class is used to obtain user input from the console.
@@ -72,4 +71,5 @@ You entered float 89.09
  .. Reading methods are synchronized.
  .. Format string syntax can be used.
  .. Does not work in non-interactive environment (such as in an IDE).
-________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
