@@ -2,6 +2,8 @@
 // Using scanner class
 using ternary operator 
 // using in built is leap () method 
+
+
 // Importing Classes/Files
 import java.io.*;
 
@@ -54,5 +56,5 @@ public class check {
 	}
 }
 ____________________________________
-input user.....
-java code 
+
+2.Using Ternary Operator 
