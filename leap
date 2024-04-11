@@ -1,4 +1,7 @@
-hi// Java program to find a leap year
+// Java program to find a leap year
+// Using scanner class
+using ternary operator 
+// using in built is leap () method 
 // Importing Classes/Files
 import java.io.*;
 
