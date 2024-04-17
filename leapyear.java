@@ -1,4 +1,4 @@
-1.using ternary operator 
+//1.using ternary operator 
 import java.io.*;
 public class check {
 	public static void isLeapYear(int year)
@@ -30,5 +30,4 @@ public class check {
 	}
 }
 ________________________________________________________________________________________________________________________________________________________
-
-2.Using Ternary Operator 
+//2.Using Ternary Operator 
