@@ -1,4 +1,4 @@
-//1.using ternary operator 
+to//1.using ternary operator 
 import java.io.*;
 public class check {
 	public static void isLeapYear(int year)
@@ -69,3 +69,9 @@ public class GeeksforGeeks {
         isLeapYear(2002);
     }
 }
+
+
+
+Using In-built isLeap() Method
+
+Java has an in-built isLeap() method to check if the input year is a leap year or not.
