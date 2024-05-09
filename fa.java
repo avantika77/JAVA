@@ -81,3 +81,4 @@ class GFG {
 			+ " terms: " + calculateEvenSum(n));
 	}
 }
+_____________________
