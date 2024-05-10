@@ -1,11 +1,10 @@
 
-// Java Program to print pattern
 // Square hollow pattern
 import java.util.*;
  
-public class GeeksForGeeks {
+public square {
     // Function to demonstrate pattern
-    public static void printPattern(int n)
+    public static void p)
     {
         int i, j;
         // outer loop to handle number of rows
