@@ -2,7 +2,7 @@
  n!=n×(n−1)×(n−2)×…×
              3×2×1
 
- 
+ import java.util.Scanner;
 class fac {     //class factorial
     static int factorial(int n) // n parameter
     {
@@ -12,9 +12,15 @@ class fac {     //class factorial
         }
         return res;    // return res
     }
+ public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a non-negative integer: ");
+        int n = scanner.nextInt();
 
-    public static void main(String[] args) {
-        int n = 5;  
-        System.out.println("Factorial: " + factorial(n));
-    }
+        if (n < 0) {
+            System.out.println("Invalid input.");
+        } else {
+            System.out.println("Factorial : " + factorial(n));
+        }
+ }
 }
