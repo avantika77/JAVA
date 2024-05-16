@@ -5,7 +5,7 @@
 
 1.> Iterative Solution 
  
- import java.util.Scanner;
+import java.util.Scanner;
 class fac {     //class factorial
     static int factorial(int n) // n parameter
     {
@@ -27,4 +27,72 @@ class fac {     //class factorial
         }
  }
 }
-============================================================================================================================================
+
+======================================================================================================================================
+
+ 2.> RECURSIVE METHOD
+
+ import java.util.Scanner;
+class fac {     //class factorial
+    static int factorial(int n) // n parameter
+    {
+        if(n==0)  // return res
+        return 1;
+     return n* factorial (n-1);  
+    }
+ public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a non-negative integer: ");
+        int n = scanner.nextInt();
+
+        if (n < 0) {
+            System.out.println("Invalid input.");
+        } else {
+            System.out.println("Factorial : " + factorial(n));
+        }
+ }
+}
+=============================================================================================================================
+Enter a non-negative integer: 6
+Factorial : 720
+=============================================================================================================================
+ 
+
+3.> One-line Solution (Using the Ternary operator)
+
+import java.util.Scanner;
+class Factorial {
+    int fac(int n) {
+   
+        return (n == 1 || n == 0) ? 1 : n * fac(n - 1);
+    }
+
+    // main function
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a non-negative integer: ");
+        int n = scanner.nextInt();
+
+        if (n < 0) {
+            System.out.println("Invalid input.");
+        } else {
+            Factorial factorial = new Factorial(); 
+            System.out.println("Factorial : " + factorial.fac(n)); 
+        }
+    }
+}
+=============================================================================================================================
+ Enter a non-negative integer: -8
+Invalid input.
+
+
+
+
+
+
+
+
+
+
+ 
+ 
