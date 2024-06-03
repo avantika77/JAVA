@@ -1,17 +1,11 @@
-
-// Java program to convert 24 hour 
-// time format to 12 hour format
- 
-// Importing specific date class libraries
-import java.util.Date;
+//  program to convert 24 hour 
+import java.util.Date;     // Importing specific date class libraries
 import java.text.SimpleDateFormat;
  
-public class GFG {
-   
-  // Main driver method
+public class time {
     public static void main(String[] args)
     {
-        // Getting the current current time
+        // Getting the current  time
         Date date = new Date();
  
        
