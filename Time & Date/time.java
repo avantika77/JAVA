@@ -43,4 +43,55 @@ This class inherits java.text.DateFormat class.
 
 Syntax:
 [public final String format(Date date)]
+-----------------------------------------------------------------------------------------------------------------
+ Approach 2: Without using any Special class of java
+ import java.util.*;
+ 
+class GFG {
+     static void convertTime(String time)
+    {
+        String format;
+ 
+        // Parsing hours, minutes and seconds in array
+        String[] arr = time.split(":");
+ 
+        // Converting hours into integer
+        int hh = Integer.parseInt(arr[0]);
+ 
+        if (hh > 12) {
+            hh = hh - 12;
+            format = "PM";
+        }
+        else if (hh == 00) {
+            hh = 12;
+            format = "AM";
+        }
+        else if (hh == 12) {
+            hh = 12;
+            format = "PM";
+        }
+        else {
+            format = "AM";
+        }
+ 
+        // Converting hh to String and
+        // padding it with 0 on left side
+        String hour = String.format("%02d", hh);
+        String minute = arr[1];
+        String second = arr[2];
+ 
+        // Printing formatted time
+        System.out.print("Time in 12-hour format is : ");
+        System.out.print(hour + ":" + minute + ":" + second
+                         + " " + format);
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(
+            "Enter the time in 24-hour format : ");
+        String time = sc.nextLine();
+        convertTime(time);
+    }
+}
 
