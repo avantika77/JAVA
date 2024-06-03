@@ -44,5 +44,3 @@ This class inherits java.text.DateFormat class.
 Syntax:
 [public final String format(Date date)]
 
-Parameters: The method takes one parameter date of Date object type and refers to the date whose string output is to be produced.
-Return Value: The method returns Date or time in string format of “mm/dd/yyyy”
