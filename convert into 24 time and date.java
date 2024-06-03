@@ -25,3 +25,24 @@ public class time {
             "Current Time in AM/PM Format is : " + time);
     }
 }
+-----------------------------------------------------------------------------------------------------------------
+🔸Date Time Class Format is used to display date and time and manipulate date and time
+🔸It is also used for formatting date and time class in java across time zone associated data.
+🔸‘java.utils’ - one can create an object of the Date class in order to print the current date and time
+🔸In order to print the default date and time simply call the print command using toString() 
+
+ ▫️Approaches:
+
+    🔸Using SimpleDateFormat
+    🔸Using splitting the string
+SimpleDateFormat
+
+SimpleDateFormat class is a class in Java that provides several methods to parse and format the date and time.
+This class inherits java.text.DateFormat class.
+ The format() method -->format i.e., “mm/dd/yyyy”
+
+Syntax:
+[public final String format(Date date)]
+
+Parameters: The method takes one parameter date of Date object type and refers to the date whose string output is to be produced.
+Return Value: The method returns Date or time in string format of “mm/dd/yyyy”
